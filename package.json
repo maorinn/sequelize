@@ -98,7 +98,6 @@
     "fast-glob": "^3.2.7",
     "fs-jetpack": "^4.3.0",
     "husky": "^7.0.4",
-    "ibm_db": "^2.8.1",
     "js-combinatorics": "^0.6.1",
     "lcov-result-merger": "^3.1.0",
     "lint-staged": "^12.1.4",
@@ -135,9 +134,6 @@
       "optional": true
     },
     "mysql2": {
-      "optional": true
-    },
-    "ibm_db": {
       "optional": true
     },
     "snowflake-sdk": {
@@ -303,7 +299,7 @@
     "sscce-db2": "cross-env DIALECT=db2 node sscce.js",
     "sscce-oracle": "cross-env LD_LIBRARY_PATH=\"$PWD/.oracle/instantclient/\" DIALECT=oracle UV_THREADPOOL_SIZE=128 node sscce.js",
     "prepare": "npm run build && husky install",
-    "build": "node ./build.js",
+    "build": "",
     "---------------------------------------------------------------------------------------------------": ""
   },
   "support": true
