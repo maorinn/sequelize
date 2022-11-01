@@ -109,7 +109,6 @@
     "mysql2": "^2.3.3",
     "node-hook": "^1.0.0",
     "nyc": "^15.1.0",
-    "oracledb": "^5.5.0",
     "p-map": "^4.0.0",
     "p-props": "^4.0.0",
     "p-settle": "^4.1.1",
@@ -125,7 +124,8 @@
     "source-map-support": "^0.5.21",
     "sqlite3": "npm:@vscode/sqlite3@^5.0.7",
     "tedious": "8.3.0",
-    "typescript": "^4.5.4"
+    "typescript": "^4.5.4",
+    "dmdb": "^1.0.7697"
   },
   "peerDependenciesMeta": {
     "pg": {
@@ -152,7 +152,7 @@
     "tedious": {
       "optional": true
     },
-    "oracledb": {
+    "dmdb":{
       "optional": true
     }
   },
